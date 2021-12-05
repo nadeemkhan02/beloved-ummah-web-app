@@ -1,0 +1,45 @@
+.arabic-font {
+  font-family: KFGQPC, sans-serif !important;
+  text-align: right;
+}
+.gem-heading {
+  text-align: center;
+  font-size: 30px;
+  color: crimson;
+}
+.book-heading {
+  padding-top: 20px;
+}
+.book-heading > img {
+  width: 18px;
+  margin-right: 8px;
+  margin-bottom: 5px;
+}
+.gem {
+  font-size: 22px;
+  margin-bottom: 15px;
+  line-height: 40px;
+}
+
+.surah-description {
+  position: absolute;
+  bottom: 1px;
+  right: 5px;
+  font-family: Maitree, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.book-top {
+  text-align: center;
+}
+
+.book-content {
+  padding: 10px 15px;
+}
+
+.book-descriptio {
+  margin: auto;
+  width: 70%;
+  margin-bottom: 15px;
+  font-family: Maitree, Arial, Helvetica, sans-serif;
+}

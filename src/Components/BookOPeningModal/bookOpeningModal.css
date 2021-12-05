@@ -1,0 +1,33 @@
+.ant-modal-header {
+  border-bottom: 0px !important;
+}
+
+.book-open-modal > .ant-modal-content,
+.ant-modal-header {
+  border-radius: 10px;
+  padding-bottom: 0px;
+}
+.ant-modal-body {
+  padding-top: 10px;
+}
+
+.book-open-modal-heading {
+  font-family: Maitree, Arial, Helvetica, sans-serif;
+  margin-top: 22px;
+  font-weight: bold;
+}
+
+.book-open-modal-content > p {
+  font-family: Maitree, Arial, Helvetica, sans-serif;
+  margin-bottom: 8px;
+  color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 600px) {
+  .book-open-modal > .ant-modal-content,
+  .ant-modal-header {
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+  }
+}

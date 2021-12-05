@@ -1,0 +1,38 @@
+.ant-drawer-wrapper-body,
+.ant-drawer-header {
+  background-color: #404040;
+}
+.ant-drawer-header {
+  width: 95%;
+  margin: auto;
+  border-bottom: 3px solid rgb(211, 49, 49);
+  padding-bottom: 8px;
+}
+
+.anticon-close > svg {
+  color: white;
+}
+
+.ant-drawer-title > span {
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+.menu-items-css {
+  padding: 5px;
+}
+.menu-item-css {
+  margin-bottom: 12px;
+}
+.menu-icons {
+  width: 22px;
+  margin-right: 12px;
+  margin-bottom: 3px;
+}
+
+.menu-item-css > p {
+  display: inline-block;
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+  color: white;
+  margin-bottom: 0px;
+}
