@@ -7,7 +7,7 @@ export function* getBookData() {
     const resp = yield call(serviceCreators.getBookDataService);
     if (resp.status === 200 || resp.status === 201) {
       yield put(actionCreators.toggelMainLoader(false));
-      yield put(actionCreators.saveBookData(resp.data.data));
+      yield put(actionCreators.saveBookData(resp.data.data.surahs));
     } else {
       yield put(actionCreators.toggelMainLoader(false));
     }

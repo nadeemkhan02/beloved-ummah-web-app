@@ -14,37 +14,39 @@ function Menubar({ ToggleCollapsed, Collapsed }) {
     history.push(path);
   };
   return (
-    <div>
-      <Drawer
-        className="menubar-css"
-        title={<span>Menu</span>}
-        placement="left"
-        onClose={ToggleCollapsed}
-        visible={Collapsed}
-      >
-        <div className="menu-items-css">
-          <div className="menu-sec1-css">
-            {React.Children.toArray(
-              menuBarData.map((item) => (
-                <div className="menu-item-css">
-                  <p onClick={() => handleTabChange(item.path)}>
-                    {" "}
-                    <img
-                      className="menu-icons"
-                      src={item.icon}
-                      alt="trending"
-                    />
-                    {item.name}
-                  </p>
-                </div>
-              ))
-            )}
-          </div>
-          <div className="menu-sec2-css"></div>
-          <div className="menu-sec3-css"></div>
+    <Drawer
+      className="menubar-css"
+      title={<span>Menu</span>}
+      placement="left"
+      onClose={ToggleCollapsed}
+      visible={Collapsed}
+    >
+      <div className="menu-items-css">
+        <div className="menu-sec1-css">
+          {React.Children.toArray(
+            menuBarData.map((item) => (
+              <div
+                onClick={() => handleTabChange(item.path)}
+                className="menu-item-css"
+              >
+                <p>
+                  {" "}
+                  <img className="menu-icons" src={item.icon} alt="trending" />
+                  {item.name}
+                </p>
+              </div>
+            ))
+          )}
         </div>
-      </Drawer>
-    </div>
+        <div className="menu-footer">
+          <p>
+            Version: Development <b>1.0</b>
+            <br />
+            &copy;Beloved Ummah
+          </p>
+        </div>
+      </div>
+    </Drawer>
   );
 }
 

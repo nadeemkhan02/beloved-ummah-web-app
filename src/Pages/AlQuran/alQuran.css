@@ -19,6 +19,8 @@
   font-size: 22px;
   margin-bottom: 15px;
   line-height: 40px;
+  text-align: center;
+  cursor: pointer;
 }
 
 .surah-description {
@@ -42,4 +44,17 @@
   width: 70%;
   margin-bottom: 15px;
   font-family: Maitree, Arial, Helvetica, sans-serif;
+}
+
+.search-input {
+  margin-bottom: 10px;
+}
+.search-input:focus {
+  border: 1px solid green;
+}
+
+.ant-btn-primary {
+  background-color: green !important;
+  border: none;
+  outline: none !important;
 }
